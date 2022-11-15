@@ -3,5 +3,5 @@ const app = express();
 
 app.use(express.static('public'));
 app.listen(3080, () => {
-    console.log("Application is started");
+    console.log("Application is started with git ");
 })
